@@ -1,4 +1,5 @@
 Tugas Akhir (unjuk keterampilan)
+
 Nama		: Welni Mustika S.Kom
 Hp/WA		: 085363357691
 Email		: welnimustika@gmail.com
@@ -21,6 +22,7 @@ package-lock.json
 
 5.	Isi File App (main app)
 1). Package.json
+  	
 {
   "name": "ta_kelas_nodejs_welni_mustika",
   "version": "1.0.0",
@@ -55,7 +57,9 @@ package-lock.json
 }
 
 
+
 2). Server.js
+
 const express = require("express");
 const cors = require("cors");
 const app = express();
