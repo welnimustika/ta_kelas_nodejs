@@ -21,6 +21,8 @@ app.get("/", (req, res) => {
 });
 require('./app/routes/auth.routes')(app);
 require('./app/routes/user.routes')(app);
+require('./app/routes/barang.routes')(app);
+require('./app/routes/penjualan.routes')(app);
 
 
 const PORT = process.env.PORT || 8080;
@@ -31,6 +33,8 @@ app.listen(PORT, () => {
 
 // const db = require("./app/models");
 // const Role = db.role;
+// const User = db.user;
+// var bcrypt = require("bcryptjs");
 
 // db.sequelize.sync({force: true}).then(() => {
 //   console.log('Drop and Resync Db');
