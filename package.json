@@ -1,0 +1,22 @@
+{
+  "name": "ta_kelas_nodejs_welni_mustika",
+  "version": "1.0.0",
+  "description": "Tugas akhir (unjuk keterampilan) kelas nodeJs prakerja",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/welnimustika/ta_kelas_nodejs.git"
+  },
+  "keywords": [
+    "toko_online"
+  ],
+  "author": "Welni Mustika, S.Kom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/welnimustika/ta_kelas_nodejs/issues"
+  },
+  "homepage": "https://github.com/welnimustika/ta_kelas_nodejs#readme"
+}
